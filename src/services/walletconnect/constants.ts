@@ -25,9 +25,9 @@ export const SAFE_COMPATIBLE_METHODS = [
 ]
 
 export const SAFE_WALLET_METADATA = {
-  name: 'Safe{Wallet}',
-  url: 'https://app.safe.global',
-  description: 'Smart contract wallet for Ethereum',
+  name: 'FuseSafe',
+  url: 'https://safe.fuse.io',
+  description: 'Smart contract wallet for Fuse',
   icons: ['https://app.safe.global/images/logo-round.svg'],
 }
 

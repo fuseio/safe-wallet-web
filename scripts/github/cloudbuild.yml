@@ -1,0 +1,11 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "build",
+        "-t",
+        "us-east1-docker.pkg.dev/$PROJECT_ID/fuse-safe/safe-wallet-web-base:$TAG_NAME",
+        ".",
+      ]
+images:
+  - "us-east1-docker.pkg.dev/$PROJECT_ID/fuse-safe/safe-wallet-web-base:$TAG_NAME"
